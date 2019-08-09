@@ -253,6 +253,10 @@ background-color:teal;
     margin-top:5%;
     margin-bottom:2%;
     justify-content: space-between;
+    padding-right:2.55%;
+    padding-left:2.5%;
+    margin-left:6px;
+    margin-right:6px;
 }
  .contentBlock p{
      margin-bottom: 2%;
