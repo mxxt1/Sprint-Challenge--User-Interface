@@ -232,9 +232,9 @@ background-color:teal;
     flex-direction:column;
     justify-content:center;
     margin-bottom: 2.5%;
-    width:92%;
-    margin-left:3%;
-    margin-right:4%;
+    /* width:92%; */
+    margin-left:1%;
+    /* margin-right:4%; */
 }
 
 
