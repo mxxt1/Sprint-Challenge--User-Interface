@@ -204,6 +204,33 @@ background-color:teal;
     padding-right: 0;
 }
 
+/* beginning of ABOUT page*/
+
+.container .about-page{
+    display:flex;
+    border: 1px solid red;
+}
+
+
+
+
+.contentBlock{
+    /* display: flex; */
+    margin-top: 2%;
+    margin-bottom:2%;
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
+}
+
+
+
+
+
+
+
+
+
+
 footer {
     width: 100%;
     background: black;
