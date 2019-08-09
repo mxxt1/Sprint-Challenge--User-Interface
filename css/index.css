@@ -238,25 +238,30 @@ background-color:teal;
 }
 
 
-
 .contentBlock{
     display: flex;
     flex-wrap:wrap;
     margin-bottom:2.5%;
-    justify-content:space-around;
+    justify-content:space-between;
+    /* justify-content: center;  */
     
 }
 
 .contentBlock div{
-    width:49%;
+    width:48%;
     border-bottom: 2px dotted black;
     margin-top:5%;
     margin-bottom:2%;
+    justify-content: space-between;
 }
  .contentBlock p{
      margin-bottom: 2%;
  }
 
+ .contentBlock img{
+     /* margin-left:3%; */
+     width: 100%;
+ }
 
 
 .contentBlock a{
