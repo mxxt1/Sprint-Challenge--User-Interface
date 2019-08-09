@@ -40,23 +40,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-    Semantic HTML makes the code readable to humans and subsequent developers. 
+    Semantic HTML makes the code readable to the browser, search engines, humans and subsequent developers. 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-    display:block formats content sequentially top to bottom and adds a new line after each element. display:inline formats content into a row (next to each other) within a block and does not create a new line after the element.
+    display:block formats content sequentially top to bottom and adds a new line after each element, and take up the entire width of the block. display:inline takes only the amount of space the element needs, places elements next to each other within a block and does not create a new line after the element.
 
 3. What are the 4 areas of the box model?
 
-    Margin, border, padding and content
+    Content --> padding --> border --> margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-    if flex-direction is a row, then align-items:center would move items to the vertical center. If flex direction is column, it's the opposite. It affects the cross axis, not the main axis like justify-content; 
+    if flex-direction is a row, then align-items:center would move items to the vertical center (vertical axis). If flex direction is column, it's the opposite (horizontal axis). It affects the cross/perpendicular axis, not the main axis like justify-content.
 
 5. Explain why git is valuable to a team of developers.
 
-    git allows developers to work on different parts of code, or the same parts of code, in separate branches. This protects the master branch from mistakes/bugs by allowing changes to be staged and reviewed before they are merged into the production branch. 
+    git allows developers to work on different parts of code, or the same parts of code, in separate branches/silos. This protects the master branch from mistakes/bugs by allowing changes to be ranked/assessed, staged and reviewed before they are merged into the production branch. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
