@@ -212,7 +212,7 @@ background-color:teal;
     padding-right: 0;
 }
 
-/* beginning of ABOUT page*/
+/* beginning of ABOUT page----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .container .about-page{
     display:flex;
@@ -220,7 +220,6 @@ background-color:teal;
 
 .about-page {
 
-    /* margin-bottom: 5%; */
     border-bottom: 2px dotted black;
 }
 
@@ -232,7 +231,6 @@ background-color:teal;
     display:flex;
     flex-direction:column;
     justify-content:center;
-    /* border-bottom:2px dotted black; */
     margin-bottom: 2.5%;
     width:92%;
     margin-left:3%;
@@ -244,10 +242,7 @@ background-color:teal;
 .contentBlock{
     display: flex;
     flex-wrap:wrap;
-    /* margin-top: 2.5%; */
     margin-bottom:2.5%;
-    /* border-top: 2px dotted black; */
-    /* border-bottom: 2px dotted black; */
     justify-content:space-around;
     
 }
@@ -288,15 +283,18 @@ background-color:teal;
 }
 
 .letsWork{
+    display:flex;
     margin-bottom:3%;
 }
 
-
-
-
+.letsCopy{
+    /* width:92%;*/
+    margin-left:1%;
+    /*margin-right:4% */
+}
 
 footer {
-    width: 100%;
+    width: 800px;
     background: black;
 }
 
