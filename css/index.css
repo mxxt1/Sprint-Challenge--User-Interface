@@ -113,7 +113,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .top-content {
@@ -209,23 +209,63 @@ background-color:teal;
 .container .about-page{
     display:flex;
     border: 1px solid red;
+    border-bottom:2px dotted black;
 }
 
 
 
 
 .contentBlock{
-    /* display: flex; */
-    margin-top: 2%;
-    margin-bottom:2%;
-    border-top: 2px dotted black;
-    border-bottom: 2px dotted black;
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 2.5%;
+    margin-bottom:2.5%;
+    /* border-top: 2px dotted black; */
+    /* border-bottom: 2px dotted black; */
+    justify-content:space-around;
 }
 
+.contentBlock div{
+    width:49%;
+    border-bottom: 2px dotted black;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+ .contentBlock p{
+     margin-bottom: 2%;
+ }
 
+/* .button{
+    margin-bottom:2%;
+    border-radius:5px;
+    background-color:white;
+} */
 
+.contentBlock a{
+    display:flex;
+    background:white;
+	border: 2px solid black;
+	text-decoration: none;
+	color:gray;
+    justify-content: center;
+    align-items:flex-end;
+    width: 30%;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom:5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size:13px;
+}
 
+.contentBlock h2{
+    margin-top:2%;
+}
 
+.letsWork{
+    margin-bottom:3%;
+}
 
 
 
